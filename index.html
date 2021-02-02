@@ -37,7 +37,7 @@ if (document.location.search.substr(1) != '') {
     var deviceAgent = navigator.userAgent.toLowerCase();
     var agentID = deviceAgent.match(/(iphone|ipod|ipad|android)/);
 
-  // Se vier do adspresso, virá com essas tags no navegador, todas as seguintes serão ignoradas $_GET["utm_source"] / $_GET["utm_campaign"] / $_GET["utm_medium"] /   $_GET["utm_content"];
+  // Se vier do adspresso, virá com essass tags no navegador, todas as seguintes serão ignoradas $_GET["utm_source"] / $_GET["utm_campaign"] / $_GET["utm_medium"] /   $_GET["utm_content"];
 
   if(typeof queries['utm_source'] !== "undefined") {
     src = queries['utm_source']+'|';
